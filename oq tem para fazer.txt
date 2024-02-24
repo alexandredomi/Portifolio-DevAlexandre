@@ -1,0 +1,6 @@
+escrever novo sobre mim 
+fazer o botao hamburger js 
+fazer a leitura das skills com js
+adicionar imagens de projeetos 
+adicionar links de projetos feios deploy
+adicionar linck do codico dos projetos 
