@@ -195,7 +195,7 @@ header ul{
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 20px;
+    padding: 100px 20px;
  }
 
  .skills .title h2{
@@ -263,7 +263,6 @@ header ul{
       border: solid 2px;
       color: #efa9fa;
       width: 70%;
-      margin-top: 60px;
    }
 
  .projetos{
@@ -312,7 +311,6 @@ header ul{
     -webkit-box-shadow: -32px 30px 20px -1px rgba(0,0,0,0.8);
     -moz-box-shadow: -32px 30px 20px -1px rgba(0,0,0,0.8);
     box-shadow: -32px 30px 20px -1px rgba(0,0,0,0.8);
-
  }
 
  .projeto-pdv{
@@ -368,6 +366,13 @@ header ul{
     background-color: #efa9fa5b;
     transition: 0.3s;
  }
+
+ .icones-tec-projetos img{
+   width: 100px;
+   margin-top: 20px;
+ }
+
+ 
 
  .contato{
    width: 100%;
@@ -483,6 +488,13 @@ footer{
     transition: 0.5;
 }
 
+.botao-whatsapp{
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   z-index: 1;
+}
+
 /* responsivi celulares*/
 
 @media screen and (max-width: 720px) {
@@ -591,7 +603,12 @@ footer{
       align-items: center;
    }
 
-
+   .botao-whatsapp{
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 1;
+   }
 
   }
 
