@@ -367,10 +367,17 @@ header ul{
     transition: 0.3s;
  }
 
+ .conteudo-todos-projetos .icones-tec-projetos{
+   display: flex;
+   width: 70%;
+ }
+
  .conteudo-todos-projetos .icones-tec-projetos img{
-   width: 100px;
+   width: 80px;
    margin-top: 20px;
  }
+
+
 
 /*.projeto-calculadora, .projeto-pdv, .projeto-tal, h3{
    font-size: 30px;
