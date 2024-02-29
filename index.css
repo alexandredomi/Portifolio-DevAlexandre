@@ -126,7 +126,7 @@ header ul{
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 100px 20px;
+    padding: 30px 0px 60px 0px;
  }
 
  .skills .title h2{
@@ -140,7 +140,7 @@ header ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 20px;
  }
 
  .todas-skil{
@@ -165,9 +165,9 @@ header ul{
       display: flex;
       justify-content: center;
       align-items: center;
-      border: solid 2px;
+      border: solid 1px;
       color: #efa9fa;
-      width: 70%;
+      width: 80%;
    }
  .projetos{
     width: 80%;
@@ -181,7 +181,7 @@ header ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 80px 0px 40px 0px;
  }
 
 .title-projetos h2{
@@ -197,6 +197,7 @@ header ul{
     justify-content: center;
     align-items: center;
     gap: 80px;
+    margin: 40px 0px 80px 0px;
  }
 
  .projeto-calculadora,.projeto-pdv,.projeto-tal{
