@@ -174,8 +174,7 @@ header ul{
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 20px;
-    margin: 20px 0px;
+    margin-bottom: 40px;
  } 
  
  .projetos .title-projetos{
@@ -198,7 +197,6 @@ header ul{
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding: 40px;
  }
 
  .projeto-calculadora,.projeto-pdv,.projeto-tal{
@@ -207,26 +205,26 @@ header ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     padding: 30px 0px;
     background: rgba(255, 255, 255, 0.133);
     border-radius: 5px;
-    -webkit-box-shadow: -32px 30px 20px -1px rgba(0,0,0,0.8);
-    -moz-box-shadow: -32px 30px 20px -1px rgba(0,0,0,0.8);
-    box-shadow: -32px 30px 20px -1px rgba(0,0,0,0.8);
  }
  
  .button-projetos{
    display: flex;
    justify-content: space-around;
-   width: 80%;
+   width: 70%;
  }
 
  .button-projetos a{
    text-decoration: none;
-   color: #13072e;
-   background-color: #efa9fa;
-   border: none;
+   color: #ffffffee;
+   background-color: #ffffff00;
+   border: solid 1px #ffffff53;
+   border-radius: 25px;
+   padding: 15px 30px;
+
  }
 
  .button-projetos a:hover{
@@ -449,15 +447,14 @@ footer{
    .JS ul{
       display: none;
    }
-
    .projetos .conteudo-todos-projetos{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-   }
+   }*/
 
    .button-projetos a{
-      padding: 5px 15px;
+      padding: 15px 25px;
    }
 
    footer{
