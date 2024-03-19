@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 body{
     background-color: #280d65;
     color: white;
@@ -68,7 +72,7 @@ header ul{
    justify-content: center;
    align-items: center;
  }
-.home{
+#home{
    max-width: 1400px;
     width: 80%;
     display: flex;
@@ -76,13 +80,13 @@ header ul{
     padding: 20px;
     margin: 50px 0px;
  }
- .home .home-esq{
+ #home .home-esq{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
  }
-.home .home-esq h2{
+#home .home-esq h2{
    margin: 20px 0px;
     font-size: 45px;
     font-family: "Roboto", sans-serif;
@@ -90,7 +94,7 @@ header ul{
     font-style: normal;
     color: #ffffff;
 }
-.home .home-esq .button{
+#home .home-esq .button{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -102,12 +106,12 @@ header ul{
    border: none;
    border-radius: 20px;
 }
-.home .home-esq .button:hover{
+#home .home-esq .button:hover{
     color: #ffffff;
     background-color: #efa9fa5b;
     transition: 0.3s;
 }
- .home .home-dir{
+ #home .home-dir{
     width: 50%;
     display: flex;
     align-items: center;
@@ -121,7 +125,7 @@ header ul{
    width: 400px;
    border-radius: 51% 49% 47% 53% / 67% 65% 35% 33% ;
  }
- .skills{
+ #skills{
     width: 80%;    
     display: flex;
     flex-direction: column;
@@ -129,14 +133,14 @@ header ul{
     padding: 30px 0px 60px 0px;
  }
 
- .skills .title h2{
+ #skills .title h2{
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
     font-style: normal;
  }
 
- .skills .title{
+ #skills .title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,7 +173,7 @@ header ul{
       color: #efa9fa;
       width: 80%;
    }
- .projetos{
+ #projetos{
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -177,7 +181,7 @@ header ul{
     margin-bottom: 40px;
  } 
  
- .projetos .title-projetos{
+ #projetos .title-projetos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +195,7 @@ header ul{
     font-style: normal;
  }
 
- .projetos .conteudo-todos-projetos{
+ #projetos .conteudo-todos-projetos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -242,7 +246,7 @@ header ul{
    width: 80px;
  }
 
- .contato{
+ #contato{
    width: 100%;
    background-color: #efa9fa60;
    display: flex;
@@ -258,12 +262,12 @@ header ul{
     margin: 20px 0px;
  } 
  
- .contato .title-contato{
+ #contato .title-contato{
     display: flex;
     justify-content: start;
  }
 
- .contato .title-contato h2{
+ #contato .title-contato h2{
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
@@ -271,7 +275,7 @@ header ul{
     margin: 5px 0px;
  }
 
- .contato .title-contato .contatos{
+ #contato .title-contato .contatos{
     width: 100%;
  }
 
@@ -368,7 +372,7 @@ footer{
 
 /* responsivi celulares*/
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 840px) {
 
    body{
       justify-content: center;
@@ -400,7 +404,7 @@ footer{
       align-items: center;
    }
 
-   .home{
+   #home{
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -410,11 +414,11 @@ footer{
       gap: 20px;
    }
 
-   .home .home-esq{
+   #home .home-esq{
       width: 100%;
    }
 
-   .home .home-dir{
+   #home .home-dir{
       width: 100px;
       margin-bottom: 60px;
       
@@ -427,7 +431,7 @@ footer{
       background: radial-gradient(circle, rgba(239,169,250,1) 0%, rgba(40,13,101,1) 63%);
     }
 
-   .sobre .center{
+   #sobre .center{
       width: 100%;
       flex-direction: column;
       justify-content: center;
@@ -435,7 +439,7 @@ footer{
       gap: 100px; 
    }
 
-   .skills .todas-skil{
+   #skills .todas-skil{
       flex-direction: column;
       gap: 50px;
    }
@@ -451,7 +455,7 @@ footer{
    .JS ul{
       display: none;
    }
-   .projetos .conteudo-todos-projetos{
+   #projetos .conteudo-todos-projetos{
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -490,7 +494,7 @@ footer{
 
 /* responsivo tablets*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1020px) {
    header{
       display: flex;
       flex-direction: column;
@@ -506,7 +510,9 @@ footer{
       width: 90%;
       display: flex;
    }
-
+   .home-esq{
+      padding: 0px 10px;
+   }
     .home-dir img{
       width: 300px;
     }
@@ -515,11 +521,11 @@ footer{
       width: 90%;
     }
 
-    .skills{
+    #skills{
       width: 90%;
     }
 
-    .projetos{
+    #projetos{
       width: 90%;
     }
 
