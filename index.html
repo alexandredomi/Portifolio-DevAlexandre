@@ -40,6 +40,17 @@
             <div></div>
         </div>
     </header>
+    <div class="menuHamburgerMobileShow">
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#skills">Skills</a>
+                <a href="#projetos">Projetos</a>
+                <a  href="#contato">Contato</a>
+            </li>
+        </ul>
+    </div>
     <main>
         <section id="home">
             <div class="home-esq">
@@ -151,5 +162,17 @@
         </div>
     </footer>  
     <a href="https://wa.me/53984415919" target="_blank"><img class="botao-whatsapp" src="img/whatsapp.png" width="60px" alt="botao whatsapp"></a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuHamburger = document.getElementById('menuHamburgerMobile');
+            const menuHamburgerShow = document.querySelector('.menuHamburgerMobileShow');
+
+            menuHamburger.addEventListener('click', function () {
+                menuHamburgerShow.classList.toggle('show');
+            });
+        });
+    </script>
+
 </body>
 </html>
