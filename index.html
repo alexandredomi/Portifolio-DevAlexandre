@@ -39,6 +39,10 @@
             <div></div>
             <div></div>
         </div>
+        <div id="menuHamburgerMobileclose">
+            <div></div>
+            <div></div>
+        </div>
     </header>
     <div class="menuHamburgerMobileShow">
         <ul>
@@ -173,6 +177,16 @@
             });
         });
     </script>
+    <script>
+        function trocarPosicao() {
+          var menuHamburgerMobile = document.getElementById('menuHamburgerMobile');
+          var menuHamburgerMobileclose = document.getElementById('menuHamburgerMobileclose');
+          
+          // Trocar as posições
+          var temp = menuHamburgerMobile.parentNode.replaceChild(menuHamburgerMobileclose, menuHamburgerMobile);
+          menuHamburgerMobileclose.parentNode.insertBefore(temp, menuHamburgerMobileclose.nextSibling);
+        }
+        </script>
 
 </body>
 </html>
