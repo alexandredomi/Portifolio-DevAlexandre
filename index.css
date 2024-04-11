@@ -129,10 +129,12 @@ header ul{
  .home-dir{
    background: rgb(239,169,250);
    background: radial-gradient(circle, rgba(239,169,250,1) 0%, rgba(40,13,101,1) 63%);
+   max-width: 400px;
  }
  .home-dir img{
    width: 400px;
    border-radius: 51% 49% 47% 53% / 67% 65% 35% 33% ;
+   
  }
  #skills{
     width: 80%;    
@@ -209,11 +211,11 @@ header ul{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 60px;
     margin: 40px 0px 80px 0px;
  }
 
- .projeto-calculadora,.projeto-pdv,.projeto-tal{
+ .projeto-calculadora, .projeto-pdv, .projeto-tal{
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -228,7 +230,7 @@ header ul{
  .button-projetos{
    display: flex;
    justify-content: space-around;
-   width: 70%;
+   width: 60%;
  }
 
  .button-projetos a{
@@ -237,8 +239,7 @@ header ul{
    background-color: #ffffff00;
    border: solid 1px #ffffff53;
    border-radius: 25px;
-   padding: 15px 30px;
-
+   padding: 0.5em 1.2em;
  }
 
  .button-projetos a:hover{
@@ -283,17 +284,14 @@ header ul{
     font-style: normal;
     margin: 5px 0px;
  }
-
  #contato .title-contato .contatos{
     width: 100%;
  }
-
  .contatos .celular{
     display: flex;
     gap: 17px;
     margin: 10px 0px;
  }
-
  .contatos .e-mail{
     display: flex;
     gap: 15px;
@@ -305,11 +303,12 @@ header ul{
     gap: 15px;
     margin: 10px 0px;
  }
-
+ .contatos strong{
+   font-size: 20px;
+ } 
  .contatos .icons{
-    display: flex;
+    display: flex;    
  }
-
  .celular img{
     width: 15px;
  }
@@ -324,7 +323,7 @@ header ul{
 
  .icons img{
     width: 30px;
-    margin: 20px 5px;
+    margin: 15px 5px 0px 0px;
  }
 
 footer{
@@ -446,7 +445,7 @@ footer{
       align-items: center;
    }
    #home{
-      width: 90%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -499,14 +498,16 @@ footer{
       width: 90%;
    }
    .button-projetos{
-      width: 80%;
+      width: 90%;
       display: flex;
       justify-content: space-around;
    }
-   .button-projetos a{
+   /* .button-projetos a{
       padding: 15px 25px;
-   }
-
+   } */
+   .contatos strong{
+      font-size: 16px;
+    }
    footer{
       width: 100%;
       display: flex;
