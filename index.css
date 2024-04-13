@@ -125,12 +125,16 @@ header ul{
     justify-content: center;
  }
  .home-dir{
-   background: rgb(239,169,250);
-   background: radial-gradient(circle, rgba(239,169,250,1) 0%, rgba(40,13,101,1) 63%);
-   max-width: 400px;
+   /* background: rgb(239,169,250);
+   background: radial-gradient(circle, rgba(239,169,250,1) 0%, rgba(40,13,101,1) 63%); */
+   display: flex;
+   justify-content: center;
  }
  .home-dir img{
+   background: rgb(239,169,250);
+   background: radial-gradient(circle, rgba(239,169,250,1) 0%, rgba(40,13,101,1) 63%);
    width: 400px;
+   max-width: 400px;
    border-radius: 51% 49% 47% 53% / 67% 65% 35% 33% ;
    
  }
