@@ -112,11 +112,15 @@ header ul{
    background-color: #efa9fa;
    border: none;
    border-radius: 20px;
+   box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+
 }
 #home .home-esq .button:hover{
     color: #ffffff;
-    background-color: #efa9fa5b;
-    transition: 0.3s;
+    background-color: #efa9fa98;
+    transition: 0.4s;
+    box-shadow: 3.2px 6.4px 6.4px hsl(0deg 0% 0% / 0.40);
+
 }
  #home .home-dir{
     width: 50%;
@@ -125,8 +129,6 @@ header ul{
     justify-content: center;
  }
  .home-dir{
-   /* background: rgb(239,169,250);
-   background: radial-gradient(circle, rgba(239,169,250,1) 0%, rgba(40,13,101,1) 63%); */
    display: flex;
    justify-content: center;
  }
@@ -227,6 +229,12 @@ header ul{
     padding: 30px 0px;
     background: rgba(255, 255, 255, 0.133);
     border-radius: 5px;
+    box-shadow: 3.7px 7.4px 7.4px hsl(0deg 0% 0% / 0.39);
+    transition: 0.4s;
+ }
+
+ .projeto-calculadora, .projeto-pdv, .projeto-tal:hover{
+   box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
  }
  
  .button-projetos{
